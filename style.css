@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    background: #e7f5d9;
+    width: 0,7pc;
+    
+
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+@media (max-width: 333px){
+    .card{
+        flex-direction: row;
+    }
+}
